@@ -1,14 +1,11 @@
-import { Inter } from '@next/font/google'
 import Navigation from "./navigation";
 
 import {BsTwitter, BsGithub, BsLinkedin} from "react-icons/bs";
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
   <>
-    <div className="bg-gray-100">
+    <div className="bg-white">
       <Navigation />
       <main style={{minHeight: "calc(100vh - 96px - 232px)"}}>
         <div className="px-4 pt-8 pb-20 sm:px-6 lg:pt-12 lg:pb-28 lg:px-4">

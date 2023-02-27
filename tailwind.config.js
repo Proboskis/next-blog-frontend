@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'signature': ['var(--font-bonheur-royale)']
+      }
+    },
   },
   plugins: [
     require('tailwindcss-filters'),
