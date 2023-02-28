@@ -32,24 +32,24 @@ export default function Home() {
             </div>
             <div className="px-8 py-2">
               <a className="text-base text-gray-500 hover:text-gray-900 font-medium" href="/privacy-policy">
-                Policy
+                Privacy policy
               </a>
             </div>
             <div className="px-8 py-2">
               <a className="text-base text-gray-500 hover:text-gray-900 font-medium" href="/terms-and-conditions">
-                Terms and Conditions
+                Terms &amp; Conditions
               </a>
             </div>
           </div>
           <div className="flex justify-center mt-8 space-x-6">
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <BsTwitter className="w-6 h-6 text-gray-400 hover:text-gray-500" />
+              <BsTwitter className="w-6 h-6 text-orange-600 hover:text-orange-400" />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <BsGithub className="w-6 h-6 text-gray-400 hover:text-gray-500" />
+              <BsGithub className="w-6 h-6 text-orange-600 hover:text-orange-400" />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <BsLinkedin className="w-6 h-6 text-gray-400 hover:text-gray-500" />
+              <BsLinkedin className="w-6 h-6 text-orange-600 hover:text-orange-400" />
             </a>
           </div>
           <p className="mt-8 text-base text-center text-gray-500">
