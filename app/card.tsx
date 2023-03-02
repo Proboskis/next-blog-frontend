@@ -8,7 +8,7 @@ export default function card() {
                     <a href="#">
                         <div className="relative pb-20">
                             <div className="absolute inset-0">
-                                <Image src="#" alt="image" loading="lazy" className="w-full h-full
+                                <img src="#" alt="image" loading="lazy" className="w-full h-full
                                 object-cover p-0 bg-gray-500" />
                             </div>
                         </div>

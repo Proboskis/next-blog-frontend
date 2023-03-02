@@ -10,27 +10,27 @@ export default function Navigation() {
                 bg-opacity-80 bg-clip-padding backdrop-filter-blur">
                     <a href="#" target="_blank" rel="noopener noreferrer"
                        className={`${BonheurRoyale.variable} font-signature text-5xl text-gray-500`}>
-                        <span className="text-orange-600">B</span>
+                        <span className="text-indigo-500">B</span>
                         <span>log</span>
                     </a>
                     <div className="hidden w-full md:block md:ml-6">
                         <div className="flex justify-end">
                             <a href="#" className="block px-4 py-2 mx-1 text-lg font-medium leading-5 text-gray-700
-                            border-l-4 transition duration-150 ease-in-out rounded-sm
-                            border-orange-600 border-solid hover:bg-gray-100
-                            focus:outline-none focus:bg-gray-100 5xl:text-3xl bg-gray-100">
+                            border-l-4 border-transparent transition duration-150 ease-in-out rounded-sm
+                            hover:bg-gray-100
+                            focus:outline-none focus:bg-gray-100 focus:border-indigo-400 5xl:text-3xl">
                                 Home
                             </a>
                             <a href="#" className="block px-4 py-2 mx-1 text-lg font-medium leading-5 text-gray-700
                             border-l-4 border-transparent transition duration-150 ease-in-out rounded-sm
                             hover:bg-gray-100
-                            focus:outline-none focus:bg-gray-100 5xl:text-3xl">
+                            focus:outline-none focus:bg-gray-100 focus:border-indigo-400 5xl:text-3xl">
                                 About
                             </a>
                             <a href="#" className="block px-4 py-2 mx-1 text-lg font-medium leading-5 text-gray-700
                             border-l-4 border-transparent transition duration-150 ease-in-out rounded-sm
                             hover:bg-gray-100
-                            focus:outline-none focus:bg-gray-100 5xl:text-3xl">
+                            focus:outline-none focus:bg-gray-100 focus:border-indigo-400 5xl:text-3xl">
                                 Contacts
                             </a>
                         </div>

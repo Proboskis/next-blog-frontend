@@ -28,13 +28,13 @@ export default function Footer() {
                 </div>
                 <div className="flex justify-center mt-8 space-x-6">
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                        <BsTwitter className="w-6 h-6 text-orange-600 hover:text-orange-400" />
+                        <BsTwitter className="w-6 h-6 text-indigo-500 hover:text-gray-500" />
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                        <BsGithub className="w-6 h-6 text-orange-600 hover:text-orange-400" />
+                        <BsGithub className="w-6 h-6 text-indigo-500 hover:text-gray-500" />
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                        <BsLinkedin className="w-6 h-6 text-orange-600 hover:text-orange-400" />
+                        <BsLinkedin className="w-6 h-6 text-indigo-500 hover:text-gray-500" />
                     </a>
                 </div>
                 <p className="mt-8 text-base text-center text-gray-500">

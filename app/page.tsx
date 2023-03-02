@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-50">
       <Navigation />
       <Main />
       <Footer />
