@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'signature': ['var(--font-bonheur-royale)']
-      }
+      },
+      colors: {
+      },
     },
   },
   plugins: [
