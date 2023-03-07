@@ -16,19 +16,19 @@ export default function Navigation() {
                     </a>
                     <div className="hidden w-full md:block md:ml-6">
                         <div className="flex justify-end">
-                            <a href="#" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
+                            <a href="./" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
                             border-b-4 border-transparent transition duration-150 ease-in-out rounded-sm
                             hover:bg-gray-100
                             focus:outline-none focus:bg-gray-100 focus:border-indigo-500 5xl:text-3xl">
                                 Home
                             </a>
-                            <a href="#" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
+                            <a href="./about" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
                             border-b-4 border-transparent transition duration-150 ease-in-out rounded-sm
                             hover:bg-gray-100
                             focus:outline-none focus:bg-gray-100 focus:border-indigo-500 5xl:text-3xl">
                                 About
                             </a>
-                            <a href="#" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
+                            <a href="./contacts" className="block px-8 py-4 mx-1 text-lg font-medium leading-5 text-gray-700
                             border-b-4 border-transparent transition duration-150 ease-in-out rounded-sm
                             hover:bg-gray-100
                             focus:outline-none focus:bg-gray-100 focus:border-indigo-500 5xl:text-3xl">
