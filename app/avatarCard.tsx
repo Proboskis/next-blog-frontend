@@ -1,6 +1,6 @@
 import {BsGithub, BsLinkedin, BsTwitter} from "react-icons/bs";
 
-export default function avatarCard() {
+export default function AvatarCard() {
     return (
         <div className="hidden w-full max-w-xs mt-12 sm:ml-10 lg:block">
             <div className="px-6 py-5 mx-1 mt-10 mb-6 text-center bg-gray-800 rounded-lg

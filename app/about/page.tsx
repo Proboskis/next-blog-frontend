@@ -1,5 +1,4 @@
 import Navigation from "../navigation";
-import Main from "../main";
 import Footer from "../footer";
 import {IoIosArrowUp} from "react-icons/all";
 
@@ -9,8 +8,8 @@ export default function Home() {
             <Navigation />
             <div style={{minHeight: "calc(100vh - 96px - 232px)"}}>
                 <div className="container relative py-12 mx-auto overflow-hidden">
-                    <div className="flex justify-center flex-col md:mx-40 lg:mx-80">
-                        <div className="relative px-4 sm:px-6 lg:px-8">
+                    <div className="flex justify-center flex-col md:mx-28 lg:mx-56">
+                        <div className="relative">
                             <div className="mt-2 mb-8 text-md lg:text-lg max-w-prose">
                                 <div className="text-left">
                                     <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-800
