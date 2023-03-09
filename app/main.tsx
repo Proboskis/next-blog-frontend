@@ -10,10 +10,10 @@ export default function main() {
                 <div className="relative max-w-full mx-auto">
                     <div className="text-center">
                         <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-700
-                        sm:text-4xl 5xl:text-6xl sm:leading-10">
+                        sm:text-3xl 5xl:text-5xl sm:leading-10">
                             📝 Welcome to the blog 🌍
                         </h1>
-                        <h2 className="mx-auto mt-3 text-xl leading-7 text-gray-500 md:text-2xl 5xl:text-4xl max-w1-xl
+                        <h2 className="mx-auto mt-3 text-lg leading-7 text-gray-500 md:text-xl 5xl:text-3xl max-w1-xl
                         sm:mt-4">
                             I write articles about Web Development and Cloud Computing.
                         </h2>

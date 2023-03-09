@@ -21,13 +21,13 @@ export default function card() {
                             <p className=" ml-1 font-medium text-gray-400">
                                 01.01.2023
                             </p>
-                            <h3 className="mt-2 mb-4 mx-3 text-lg font-semibold leading-7 text-gray-900
-                            hover:underline md:text-2xl">
+                            <h3 className="mt-2 mb-4 mx-3 text-md font-semibold leading-7 text-gray-900
+                            hover:underline md:text-xl">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing
                             </h3>
                         </a>
                         <div className="mt-auto">
-                            <p className="mx-4 pl-4 text-sm md:mx-12 md:border-l-4 md:border-gray-200 md:text-xl">
+                            <p className="mx-4 pl-4 text-sm border-l-4 md:mx-12 md:border-gray-200 md:text-md">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam amet at,
                                 consequuntur dolorem ipsum laborum maiores minima omnis provident quas quo quod
                                 repudiandae sapiente totam voluptatum? Deleniti, dignissimos?
