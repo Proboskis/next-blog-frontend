@@ -2,7 +2,7 @@ import {BsGithub, BsLinkedin, BsTwitter} from "react-icons/bs";
 
 export default function Footer() {
     return (
-        <footer className="shadow mt-60 mv-stop">
+        <footer className="shadow mt-60">
             <div className="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
                 <div className="flex flex-wrap justify-center -mx-5 -my-2">
                     <div className="px-8 py-2">
@@ -11,7 +11,8 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className="px-8 py-2">
-                        <a className="text-lg text-gray-500 hover:text-gray-900 font-medium" href="/terms-and-conditions">
+                        <a className="text-lg text-gray-500 hover:text-gray-900 font-medium"
+                           href="/terms-and-conditions">
                             Terms &amp; Conditions
                         </a>
                     </div>
