@@ -25,8 +25,8 @@ export default function main() {
                                         <FcSearch />
                                     </div>
                                     <input type="text" placeholder="Search for articles" className="pl-14 block w-full
-                                    py-4 border-2 border-gray-300 rounded-md shadow-sm appearance-none
-                                    focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base"
+                                    py-4 border border-gray-300 rounded-md shadow-sm appearance-none
+                                    focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     autoComplete="off" autoCorrect="off" autoCapitalize="none" spellCheck="false" />
                                 </div>
                             </div>

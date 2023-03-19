@@ -21,8 +21,8 @@ export default function login() {
                                                 <FaUserCircle className="text-gray-400 active:text-gray-500" />
                                             </div>
                                             <input type="text" placeholder="Search for articles" className="pl-14 block w-full
-                                        py-4 border-2 border-gray-300 rounded-md shadow-sm appearance-none
-                                        focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base"
+                                        py-4 border border-gray-300 rounded-md shadow-sm appearance-none
+                                        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-base"
                                                    autoComplete="off" autoCorrect="off" autoCapitalize="none" spellCheck="false" />
                                         </div>
                                     </div>
@@ -33,8 +33,8 @@ export default function login() {
                                                 <RiLockPasswordFill className="text-gray-400 active:text-gray-500" />
                                             </div>
                                             <input type="text" placeholder="Search for articles" className="pl-14 block w-full
-                                        py-4 border-2 border-gray-300 rounded-md shadow-sm appearance-none
-                                        focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base"
+                                        py-4 border border-gray-300 rounded-md shadow-sm appearance-none
+                                        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-base"
                                                    autoComplete="off" autoCorrect="off" autoCapitalize="none" spellCheck="false" />
                                         </div>
                                     </div>
