@@ -1,5 +1,7 @@
 import Navigation from "../navigation";
 import Footer from "../footer";
+import mail_envelope from "./mail_envelope.png";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -36,6 +38,9 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="hidden lg:inline-block">
+                        <Image width={1024} height={1024} src={mail_envelope} alt="mail envelope" className="object-contain w-full"/>
                     </div>
                 </div>
             </div>
