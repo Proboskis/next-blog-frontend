@@ -1,6 +1,6 @@
 import Navigation from "../navigation";
 import Footer from "../footer";
-import {IoIosArrowUp} from "react-icons/all";
+import {IoIosArrowUp} from "react-icons/Io";
 import AvatarCard from "../avatarCard";
 
 export default function Home() {
@@ -16,17 +16,17 @@ export default function Home() {
                                 <div className="text-left">
                                     <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-800
                                         sm:text-3xl 5xl:text-5xl sm:leading-10">
-                                        Hi! I'm Nikola Surla 👋
+                                        Hi! I&amp;apos;m Nikola Surla 👋
                                     </h1>
                                 </div>
                             </div>
                             <div>
                                 <div className="prose text-left text-gray-500 lg:prose-lg 5xl:prose-2xl">
-                                <p>I've been programing for the past 8 years</p>
+                                <p>I&amp;apos;ve been programing for the past 8 years</p>
                                 <p>I try to learn from everyone. I write down everything that makes sense to me and
                                     could potentially benefit me and increase my productivity.</p>
-                                <p>"My view has been - I don't have enough time to figure out a lot of these things
-                                on my own, so I've decided to abandon my ego and try to learn as much as possible from
+                                <p>My view has been - I don&amp;apos;t have enough time to figure out a lot of these things
+                                on my own, so I&amp;apos;ve decided to abandon my ego and try to learn as much as possible from
                                 others.</p>
                                 <p>I like finding new ways to save myself time - automating things, solving problems,
                                     writing clean code. The code for the articles is available on my
