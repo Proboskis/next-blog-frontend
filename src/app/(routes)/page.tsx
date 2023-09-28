@@ -48,7 +48,7 @@ export default function App() {
     {
       href: `/contacts`,
       label: "Contacts",
-      active: pathName === `contacts`,
+      active: pathName === `contacts`
     },
   ];
 
@@ -84,7 +84,7 @@ export default function App() {
       </NavbarContent>
 
       {/* Navbar for larger viewports */}
-      <NavbarContent className="sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {routes.map(route => (
           <NavbarItem
             key={route.href}
@@ -113,7 +113,6 @@ export default function App() {
       </NavbarContent>
 
       {/* Toggleable menu for smaller viewports */}
-      {isMenuOpen && (
         <NavbarMenu>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
@@ -130,7 +129,6 @@ export default function App() {
             </NavbarMenuItem>
           ))}
         </NavbarMenu>
-      )}
     </Navbar>
   );
 }
