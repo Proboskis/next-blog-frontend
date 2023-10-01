@@ -1,5 +1,6 @@
 import "./globals.css";
 import {Providers} from "@/../../providers/providers";
+import Navigation from "@next-blog/app/components/navigation";
 import type {Metadata} from "next";
 
 import {Inter} from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Providers>
+          <Navigation/>
           {children}
         </Providers>
       </body>

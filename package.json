@@ -11,9 +11,9 @@
   "dependencies": {
     "@next/font": "^13.5.3",
     "@nextui-org/react": "^2.1.13",
-    "@types/node": "20.7.0",
+    "@types/node": "20.7.2",
     "@types/react": "18.2.23",
-    "@types/react-dom": "18.2.7",
+    "@types/react-dom": "18.2.8",
     "eslint": "8.50.0",
     "eslint-config-next": "^13.5.3",
     "framer-motion": "^10.16.4",
@@ -21,13 +21,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "tailwindcss-filters": "^3.0.0",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "zustand": "^4.4.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3"
   }
 }
