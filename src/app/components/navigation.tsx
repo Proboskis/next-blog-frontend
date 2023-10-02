@@ -91,6 +91,7 @@ const Navigation = () => {
             isActive={pathName.pathname === route.href}
           >
             <Link
+              color="foreground"
               className="text-xl"
               {...(pathName.pathname === route.href ? {color: "foreground"} : {})}
               href={route.href}

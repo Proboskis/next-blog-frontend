@@ -1,6 +1,7 @@
 import "./globals.css";
 import {Providers} from "@/../../providers/providers";
 import Navigation from "@next-blog/app/components/navigation";
+import Footer from "@next-blog/app/components/footer";
 import type {Metadata} from "next";
 
 import {Inter} from "next/font/google";
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Providers>
           <Navigation/>
           {children}
+          <Footer/>
         </Providers>
       </body>
     </html>
