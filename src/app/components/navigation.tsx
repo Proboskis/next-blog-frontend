@@ -90,16 +90,17 @@ const Navigation = () => {
             key={route.href}
             isActive={pathName.pathname === route.href}
           >
-            <Link
-              color="foreground"
-              className="text-xl"
-              {...(pathName.pathname === route.href ? {color: "foreground"} : {})}
-              href={route.href}
-              aria-current="page"
-              as={NextLink}
-            >
-              {route.label}
-            </Link>
+              <Link
+                isBlock
+                color="foreground"
+                className="text-xl px-5 py-2"
+                {...(pathName.pathname === route.href ? {color: "foreground"} : {})}
+                href={route.href}
+                aria-current="page"
+                as={NextLink}
+              >
+                {route.label}
+              </Link>
           </NavbarItem>
         ))}
       </NavbarContent>
