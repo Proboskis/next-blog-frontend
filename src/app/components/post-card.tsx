@@ -38,17 +38,20 @@ export default function PostCard() {
           <p className="text-default-500">
             01.01.2023
           </p>
+          {/*
           <div className="mt-4">
             <p className="mx-2 pl-4 text-xs md:mx-4 md:border-l-4 md:border-gray-200 break-words max-w-[11rem]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur distinctio praesentium
               quasi repellendus. Deserunt doloremque dolores earum fugit, hic iste laudantium minus quisquam sed!
             </p>
           </div>
+          */}
         </div>
         <span className="ml-2">
           <Chip
             className="px-2 py-1 my-6 rounded-full text-xs font-medium leading-4 md:my-8"
             color="warning"
+            variant="flat"
             size="sm"
           >
             lorem

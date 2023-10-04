@@ -3,7 +3,7 @@
 import PostCard from "@next-blog/app/components/post-card";
 import Header from "@next-blog/app/components/header";
 
-export default function App() {
+export default function HomePage() {
   return (
     <>
       <Header/>

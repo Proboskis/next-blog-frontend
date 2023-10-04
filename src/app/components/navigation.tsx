@@ -36,7 +36,7 @@ const Navigation = () => {
 
   const routes = [
     {
-      href: `/home`,
+      href: `/`,
       label: "Home",
       active: pathName === `home`,
     },
