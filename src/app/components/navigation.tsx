@@ -7,14 +7,14 @@ import {
   NavbarItem,
   NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
+  NavbarMenuItem
 } from "@nextui-org/navbar";
 import {Link} from "@nextui-org/link";
 import NextLink from "next/link";
-import {Button} from "@nextui-org/button";
 
 import {AcmeLogo} from "@next-blog/app/components/acme-logo";
 import {usePathname} from "next/navigation";
+import {Tabs, Tab} from "@nextui-org/tabs";
 import {useState} from "react";
 
 const Navigation = () => {
@@ -31,25 +31,25 @@ const Navigation = () => {
     "My Settings",
     "Team Settings",
     "Help & Feedback",
-    "Log Out",
+    "Log Out"
   ];
 
   const routes = [
     {
       href: `/`,
       label: "Home",
-      active: pathName === `home`,
+      active: pathName === `home`
     },
     {
       href: `/about`,
       label: "About",
-      active: pathName === `about`,
+      active: pathName === `about`
     },
     {
       href: `/contacts`,
       label: "Contacts",
       active: pathName === `contacts`
-    },
+    }
   ];
 
   return (
@@ -67,16 +67,19 @@ const Navigation = () => {
           "data-[active=true]:after:right-0",
           "data-[active=true]:after:h-[2px]",
           "data-[active=true]:after:rounded-[2px]",
-          "data-[active=true]:after:bg-primary",
-        ],
+          "data-[active=true]:after:bg-primary"
+        ]
       }}
       onMenuOpenChange={setIsMenuOpen}
     >
-      <NavbarContent>
+      <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
+      </NavbarContent>
+
+      <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
           <AcmeLogo/>
           <p className="font-bold text-inherit">ACME</p>
@@ -84,26 +87,30 @@ const Navigation = () => {
       </NavbarContent>
 
       {/* Navbar for larger viewports */}
-      <NavbarContent className="hidden sm:flex gap-12" justify="start">
+      <NavbarContent className="hidden sm:flex gap-12" justify="end">
+        <NavbarBrand>
+          <AcmeLogo/>
+          <p className="font-bold text-inherit">ACME</p>
+        </NavbarBrand>
         {routes.map(route => (
           <NavbarItem
             key={route.href}
-            isActive={pathName.pathname === route.href}
+            isActive={pathName === route.href}
           >
-              <Link
-                isBlock
-                color="foreground"
-                className="text-xl px-5 py-2"
-                {...(pathName.pathname === route.href ? {color: "foreground"} : {})}
-                href={route.href}
-                aria-current="page"
-                as={NextLink}
-              >
-                {route.label}
-              </Link>
+            <Link
+              isBlock
+              className="text-xl px-5 py-2"
+              {...(pathName === route.href ? {color: "default"} : {color: "foreground"})}
+              href={route.href}
+              aria-current="page"
+              as={NextLink}
+            >
+              {route.label}
+            </Link>
           </NavbarItem>
         ))}
       </NavbarContent>
+      {/*}
       <NavbarContent justify="end">
         <NavbarItem className="lg:flex">
           <Link href="#" as={NextLink}>Login</Link>
@@ -114,6 +121,7 @@ const Navigation = () => {
           </Button>
         </NavbarItem>
       </NavbarContent>
+      */}
 
       {/* Toggleable menu for smaller viewports */}
       <NavbarMenu>
@@ -134,6 +142,6 @@ const Navigation = () => {
       </NavbarMenu>
     </Navbar>
   );
-}
+};
 
 export default Navigation;

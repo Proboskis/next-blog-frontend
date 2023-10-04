@@ -11,12 +11,12 @@ export default function PostCard() {
       className="cursor-pointer max-w-full"
     >
       <Image
-        alt="Card background"
         className="w-full object-cover rounded-xl"
+        alt="Card background"
         src="/blog-picture.jpg"
         width={300}
       />
-      <CardBody className="">
+      <CardBody>
         <div className="pb-0 pt-2 px-4 flex-col items-start">
           {/*
           <div className="flex justify-center items-center mb-6 -ml-6">
