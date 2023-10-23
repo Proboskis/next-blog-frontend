@@ -13,12 +13,13 @@ import {Link} from "@nextui-org/link";
 import NextLink from "next/link";
 
 import {AcmeLogo} from "@next-blog/app/components/acme-logo";
-import {usePathname} from "next/navigation";
-import {Tabs, Tab} from "@nextui-org/tabs";
+import {useParams, usePathname} from "next/navigation";
 import {useState} from "react";
 
 const Navigation = () => {
   const pathName = usePathname();
+  const params = useParams();
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
@@ -49,6 +50,11 @@ const Navigation = () => {
       href: `/contacts`,
       label: "Contacts",
       active: pathName === `contacts`
+    },
+    {
+      href: `/post/${params.postId}`,
+      label: null,
+      active: pathName === `post/${params.postId}`
     }
   ];
 
