@@ -1,3 +1,5 @@
+"use client";
+
 import {Input} from "@nextui-org/input";
 import {FcSearch} from "react-icons/fc";
 

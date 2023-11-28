@@ -1,3 +1,5 @@
+"use client";
+
 import SearchInput from "@next-blog/app/components/search-input";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDisclosure} from "@nextui-org/modal";
 
