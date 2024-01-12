@@ -1,5 +1,7 @@
 "use client";
 
+import {AvatarMain} from "../../components/avatar-main";
+
 // pages/index.js
 import CustomMarkdown from "@next-blog/app/components/CustomRenderer";
 
@@ -9,22 +11,21 @@ const Page = () => {
 
 This is some **markdown** content.
 p
-\`\`\`jsx
-import React from 'react';
-
-type BoxProps = {
-  children: React.ReactNode; // 👈️ define children prop
-};
-
-const Box = (props: BoxProps) => {
-  return <div>{props.children}</div>;
+\`\`\`tsx
+const Box = () => { // 👈️ takes no props
+  return (
+    <div>
+      <p>Hello world</p>
+    </div>
+  );
 };
 
 const App = () => {
   return (
     <div className="App">
+      {/* ⛔ Error: Type '{ children: Element; }' has no properties
+       in common with type 'IntrinsicAttributes'. ts(2559) */}
       <Box>
-        <span>Hello</span>
         <span>Test</span>
       </Box>
     </div>
@@ -32,17 +33,27 @@ const App = () => {
 };
 
 export default App;
-
 \`\`\`
 
 YouTube Video:
 
-<youtube id="your-video-id" title="Your Video Title" />
+<Youtube id="watch?v=xTxazUf9Z_o&ab_channel=LudietHistoria" title="Your Video Title" />
+
+<InfoBlock/>
+<SuccessBlock/>
+<WarningBlock/>
 `;
 
   return (
-    <div>
-      <CustomMarkdown content={markdownContent} />
+    <div className="max-w-full pt-8 pb-24 lg:flex lg:justify-center mt:pt-12">
+      <div className="max-w-2xl px-5 mx-auto overflow-x-hidden 5xl:max-w-5xl lg:mx-0">
+        <CustomMarkdown content={markdownContent}/>
+      </div>
+      <div className="hidden w-full max-w-xs ml-10 mt-26 lg:block mv-sidebar">
+        <div className="px-6 py-5 mx-2 mt-10 mb-6 text-center bg-gray-800 rounded-lg lg:mt-0 xl:px-10">
+          <AvatarMain/>
+        </div>
+      </div>
     </div>
   );
 };
